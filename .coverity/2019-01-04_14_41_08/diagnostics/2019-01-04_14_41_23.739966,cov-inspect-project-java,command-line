@@ -1,9 +1,0 @@
-D:/Program Files/Coverity/Coverity Analysis/jre/bin/java.exe
--jar
-D:/Program Files/Coverity/Coverity Analysis/jars/cov-inspect-project-java.jar
---maven-scan-dir
-D:/FCBr/Applications/Java/threadfix
---output-file
-D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/pom-scan.json
---local-repository
-D:/FCBr/Applications/Java/threadfix/.coverity/maven/local-repo

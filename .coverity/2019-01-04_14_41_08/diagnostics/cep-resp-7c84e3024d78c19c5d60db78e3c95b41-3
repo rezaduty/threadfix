@@ -1,7 +1,0 @@
---dir
-intCapDir
-cov-filesystem-capture-javafs-0
---fs-library-path
-D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\eclipse\src\main\java
---fs-library-path
-D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\eclipse\src\test\java

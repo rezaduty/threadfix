@@ -1,6 +1,0 @@
---dir
-intCapDir
-cov-filesystem-capture-javafs-0
---fs-library-path
-D:/FCBr/Applications/Java/threadfix/.coverity/maven/local-repo/org/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar
-D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/hsql-upgrade/src/com/denimgroup/threadfix/update/hsql/HSQLDriver.java

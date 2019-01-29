@@ -1,9 +1,0 @@
-D:/Program Files/Coverity/Coverity Analysis/jre/bin/java.exe
--jar
-D:/Program Files/Coverity/Coverity Analysis/jars/cov-inspect-project-java.jar
---maven-inspect-pom-file
-D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\mysql-upgrade\pom.xml
---output-file
-D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/java-59a00d686005485c3a1c518df3ff1302.json
---local-repository
-D:/FCBr/Applications/Java/threadfix/.coverity/maven/local-repo

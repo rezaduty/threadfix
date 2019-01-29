@@ -1,5 +1,0 @@
-[ERROR] SyntaxError: expected expression, got '<' line:1 column:1
-[ERROR] Source to JSON failed.
-[ERROR] tsc failed with code 2.
-[ERROR] Failed to process source file threadfix-main\src\main\webapp\scripts\login.js
-[WARNING] 1 source file(s) failed to parse. Check for front-end errors.

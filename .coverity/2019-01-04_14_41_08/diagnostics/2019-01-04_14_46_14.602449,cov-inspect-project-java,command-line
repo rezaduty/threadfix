@@ -1,9 +1,0 @@
-D:/Program Files/Coverity/Coverity Analysis/jre/bin/java.exe
--jar
-D:/Program Files/Coverity/Coverity Analysis/jars/cov-inspect-project-java.jar
---maven-inspect-pom-file
-D:\FCBr\Applications\Java\threadfix\threadfix-extras\generate_selenium\pom.xml
---output-file
-D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/java-42fb7e61915eb5e1918f1923c7112607.json
---local-repository
-D:/FCBr/Applications/Java/threadfix/.coverity/maven/local-repo

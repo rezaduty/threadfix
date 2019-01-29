@@ -1,9 +1,0 @@
---dir
-intCapDir
-cov-filesystem-capture-capture-config-files-0
-D:/FCBr/Applications/Java/threadfix/ssvl-converter/src/main/resources/constants.properties
-D:/FCBr/Applications/Java/threadfix/ssvl-converter/src/main/resources/ssvl.xsd
-D:/FCBr/Applications/Java/threadfix/ssvl-converter/src/test/resources/customDateConfig.properties
-D:/FCBr/Applications/Java/threadfix/ssvl-converter/src/test/resources/fromJunit.properties
-D:/FCBr/Applications/Java/threadfix/ssvl-converter/src/test/resources/out.ssvl
-D:/FCBr/Applications/Java/threadfix/ssvl-converter/src/test/resources/sampleConfig.properties

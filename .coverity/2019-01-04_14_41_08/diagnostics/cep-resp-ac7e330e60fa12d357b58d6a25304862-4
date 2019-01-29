@@ -1,6 +1,0 @@
---dir
-intCapDir
-cov-filesystem-capture-javafs-0
-D:/FCBr/Applications/Java/threadfix/threadfix-plugin-examples/remote-provider/src/main/java/com/denimgroup/threadfix/importer/impl/remoteprovider/SampleRemoteProvider.java
-D:/FCBr/Applications/Java/threadfix/threadfix-plugin-examples/remote-provider/src/main/java/com/denimgroup/threadfix/importer/update/impl/SampleRemoteProviderMappingsUpdater.java
-D:/FCBr/Applications/Java/threadfix/threadfix-plugin-examples/remote-provider/src/main/java/com/denimgroup/threadfix/importer/update/impl/SampleRemoteProviderUpdater.java

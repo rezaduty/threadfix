@@ -1,9 +1,0 @@
-[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\mysql-upgrade\target\classes\generated-sources doesn't exist
-[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\mysql-upgrade\src scanned
-[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\mysql-upgrade\src\test\java doesn't exist
-[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\mysql-upgrade\src\main\webapp doesn't exist
-Downloading from : https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.10/mysql-connector-java-5.1.10.pom
-Downloaded from : https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.10/mysql-connector-java-5.1.10.pom (1.1 kB at 1.2 kB/s)
-Downloading from : https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.10/mysql-connector-java-5.1.10.jar
-Downloaded from : https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.10/mysql-connector-java-5.1.10.jar (724 kB at 595 kB/s)
-[INFO] Wrote JSON file with the results from the inspection: D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/java-59a00d686005485c3a1c518df3ff1302.json
