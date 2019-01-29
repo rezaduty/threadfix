@@ -82,7 +82,7 @@ public class DefectsController {
 		}
 
         Map<String,Object> fieldsMap = defectViewModel.getFieldsMap();
-        Object asi = fieldsMap.get("AdditionalScannerInfo");
+       Object asi = fieldsMap.get("AdditionalScannerInfo");
 
         if (asi != null) {
             if ((Boolean) asi){

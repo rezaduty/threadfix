@@ -1,0 +1,16 @@
+Using cached template compiler configuration instance D:/FCBr/Applications/Java/threadfix/intCapDir/emit/FCBR-01/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+[STATUS] Compiling 6 Non compiled source files.
+[STATUS] Compiling threadfix-scanner-plugin\zaproxy\.classpath, threadfix-scanner-plugin\zaproxy\.project, threadfix-scanner-plugin\zaproxy\assembly\zap.xml, threadfix-scanner-plugin\zaproxy\src\org\zaproxy\zap\extension\threadfix\Messages.properties, threadfix-scanner-plugin\zaproxy\src\org\zaproxy\zap\extension\threadfix\Messages_en_GB.properties, threadfix-scanner-plugin\zaproxy\src\org\zaproxy\zap\extension\threadfix\ZapAddOn.xml
+"D:/Program Files/Coverity/Coverity Analysis/bin/cov-internal-emit-misc.exe" --dir=D:\FCBr\Applications\Java\threadfix\intCapDir --language=capture-config-files threadfix-scanner-plugin/zaproxy/.classpath threadfix-scanner-plugin/zaproxy/.project threadfix-scanner-plugin/zaproxy/assembly/zap.xml threadfix-scanner-plugin/zaproxy/src/org/zaproxy/zap/extension/threadfix/Messages.properties threadfix-scanner-plugin/zaproxy/src/org/zaproxy/zap/extension/threadfix/Messages_en_GB.properties threadfix-scanner-plugin/zaproxy/src/org/zaproxy/zap/extension/threadfix/ZapAddOn.xml 
+Command line with response file: D:/Program Files/Coverity/Coverity Analysis/bin/cov-internal-emit-misc.exe @utf8@D:\FCBr\Applications\Java\threadfix\intCapDir\tmp\cov-internal-emit-misc-a349d380e14696ee56bc6df9111fd353-0.cmd_args.txt
+Coverity Internal Misc Emit version 2018.12 on Windows 10 (Unknown Edition number 100), 64-bit (build 17134)
+Internal version numbers: c56d2f65de p-pacific-push-35824
+
+Detected ISO-8859-1 encoding for threadfix-scanner-plugin/zaproxy/.classpath
+Detected ISO-8859-1 encoding for threadfix-scanner-plugin/zaproxy/.project
+Detected ISO-8859-1 encoding for threadfix-scanner-plugin/zaproxy/assembly/zap.xml
+Detected windows-1252 encoding for threadfix-scanner-plugin/zaproxy/src/org/zaproxy/zap/extension/threadfix/Messages.properties
+Detected windows-1252 encoding for threadfix-scanner-plugin/zaproxy/src/org/zaproxy/zap/extension/threadfix/Messages_en_GB.properties
+Detected ISO-8859-1 encoding for threadfix-scanner-plugin/zaproxy/src/org/zaproxy/zap/extension/threadfix/ZapAddOn.xml
+cov-internal-emit-misc.exe took 0s
+

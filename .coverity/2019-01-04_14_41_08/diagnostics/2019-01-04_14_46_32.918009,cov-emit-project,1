@@ -1,0 +1,5 @@
+[INFO] Emitting project "D:/FCBr/Applications/Java/threadfix/threadfix-ide-plugin/visual-studio/threadfix-plugin/threadfix-plugin.csproj".
+[WARNING] Some source files failed to emit.
+        See the following log files for details:
+        "D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/diagnostics/2019-01-04_14_46_35.526775,cov-translate,1"
+        "D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/diagnostics/2019-01-04_14_46_35.526775,cov-translate,2"

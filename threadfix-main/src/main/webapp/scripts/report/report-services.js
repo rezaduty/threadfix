@@ -872,7 +872,7 @@ threadfixModule.factory('trendingUtilities', function(reportUtilities, customSev
             firstHashInList = startHash;
         } else {
             var rate1 = (firstHashInList.importTime)-(hashBefore.importTime);
-            var rate2 = $scope.trendingStartDate-(hashBefore.importTime);
+            var rate2 = $scope.trendingStartDate-(hashBefore.trendingStartDate);
 
             startHash.importTime = $scope.trendingStartDate;
 
@@ -908,7 +908,7 @@ threadfixModule.factory('trendingUtilities', function(reportUtilities, customSev
             });
         } else {
             var rate1 = (hashAfter.importTime)-(lastHashInList.importTime);
-            var rate2 = $scope.trendingEndDate-(lastHashInList.importTime);
+            var rate2 = $scope.trendingEndDate-(lastHashInList.trendingEndDate);
 
             endHash.importTime = $scope.trendingEndDate;
 

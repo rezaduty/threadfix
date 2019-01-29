@@ -1,0 +1,1537 @@
+{
+  "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\pom.xml": {
+    "ProjectDir": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium",
+    "Emit": [
+      {
+        "Language": "Java",
+        "DependencyInfo": {
+          "Dependencies": [
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\com\\google\\code\\gson\\gson\\2.3\\gson-2.3.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\sourceforge\\nekohtml\\nekohtml\\1.9.21\\nekohtml-1.9.21.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-chrome-driver\\2.44.0\\selenium-chrome-driver-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-collections\\commons-collections\\3.2.1\\commons-collections-3.2.1.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\xerces\\xercesImpl\\2.11.0\\xercesImpl-2.11.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-java\\2.44.0\\selenium-java-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-logging\\commons-logging\\1.1.3\\commons-logging-1.1.3.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\httpcomponents\\httpclient\\4.3.4\\httpclient-4.3.4.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\xalan\\serializer\\2.7.1\\serializer-2.7.1.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-firefox-driver\\2.44.0\\selenium-firefox-driver-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\sourceforge\\htmlunit\\htmlunit-core-js\\2.15\\htmlunit-core-js-2.15.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-ie-driver\\2.44.0\\selenium-ie-driver-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\httpcomponents\\httpmime\\4.3.3\\httpmime-4.3.3.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\com\\google\\guava\\guava\\18.0\\guava-18.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-support\\2.44.0\\selenium-support-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\sourceforge\\cssparser\\cssparser\\0.9.14\\cssparser-0.9.14.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\eclipse\\jetty\\jetty-websocket\\8.1.15.v20140411\\jetty-websocket-8.1.15.v20140411.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\cglib\\cglib-nodep\\2.1_3\\cglib-nodep-2.1_3.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\commons\\commons-exec\\1.1\\commons-exec-1.1.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-codec\\commons-codec\\1.9\\commons-codec-1.9.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\webbitserver\\webbit\\0.4.14\\webbit-0.4.14.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-io\\commons-io\\2.4\\commons-io-2.4.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-remote-driver\\2.44.0\\selenium-remote-driver-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\commons\\commons-lang3\\3.3.2\\commons-lang3-3.3.2.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-api\\2.44.0\\selenium-api-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-codec\\commons-codec\\1.6\\commons-codec-1.6.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\xml-apis\\xml-apis\\1.4.01\\xml-apis-1.4.01.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-safari-driver\\2.44.0\\selenium-safari-driver-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\eclipse\\jetty\\jetty-util\\8.1.15.v20140411\\jetty-util-8.1.15.v20140411.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\java\\dev\\jna\\platform\\3.4.0\\platform-3.4.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\w3c\\css\\sac\\1.3\\sac-1.3.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\eclipse\\jetty\\jetty-http\\8.1.15.v20140411\\jetty-http-8.1.15.v20140411.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\eclipse\\jetty\\jetty-io\\8.1.15.v20140411\\jetty-io-8.1.15.v20140411.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\sourceforge\\htmlunit\\htmlunit\\2.15\\htmlunit-2.15.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-htmlunit-driver\\2.44.0\\selenium-htmlunit-driver-2.44.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\java\\dev\\jna\\jna\\3.4.0\\jna-3.4.0.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\io\\netty\\netty\\3.5.2.Final\\netty-3.5.2.Final.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\xalan\\xalan\\2.7.1\\xalan-2.7.1.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            },
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\httpcomponents\\httpcore\\4.3.2\\httpcore-4.3.2.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            }
+          ]
+        },
+        "Defines": [],
+        "SourceInfo": {
+          "Sources": {
+            "MAIN": [],
+            "TEST": []
+          }
+        }
+      },
+      {
+        "Language": "JSP",
+        "DependencyInfo": {
+          "Dependencies": []
+        },
+        "Defines": [],
+        "SourceInfo": {
+          "Sources": {
+            "MAIN": [],
+            "TEST": []
+          }
+        }
+      }
+    ],
+    "ProjectFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\pom.xml",
+    "Telemetry": [
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.596-02:00",
+        "EventType": "PomFileParsed",
+        "Data": {
+          "MainPomFileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\pom.xml",
+          "ParsedPomFileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\pom.xml",
+          "ProblemsFound": []
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesScanStarted",
+        "Data": {
+          "SourcesSet": "Main",
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\target\\classes\\generated-sources",
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\main\\java"
+          ]
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesRootDirectoryDoesNotExist",
+        "Data": {
+          "SourcesSet": "Main",
+          "Target": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\target\\classes\\generated-sources"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesRootDirectoryDoesNotExist",
+        "Data": {
+          "SourcesSet": "Main",
+          "Target": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\main\\java"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesScanComplete",
+        "Data": {
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\target\\classes\\generated-sources",
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\main\\java"
+          ],
+          "SourcesSet": "Main"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesScanStarted",
+        "Data": {
+          "SourcesSet": "Test",
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\test\\java"
+          ]
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesRootDirectoryDoesNotExist",
+        "Data": {
+          "SourcesSet": "Test",
+          "Target": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\test\\java"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesScanComplete",
+        "Data": {
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\test\\java"
+          ],
+          "SourcesSet": "Test"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesScanStarted",
+        "Data": {
+          "SourcesSet": "Webapp",
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\main\\webapp"
+          ]
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesRootDirectoryDoesNotExist",
+        "Data": {
+          "SourcesSet": "Webapp",
+          "Target": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\main\\webapp"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "SourcesScanComplete",
+        "Data": {
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\src\\main\\webapp"
+          ],
+          "SourcesSet": "Webapp"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "DependenciesProcessingStarted"
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:15.612-02:00",
+        "EventType": "DependencyResolutionStarted",
+        "Data": {
+          "Dependency": "BuildlessMavenDependencyAdaptor{projectFile=null, dependency=Dependency {groupId=org.seleniumhq.selenium, artifactId=selenium-java, version=2.44.0, type=jar}}",
+          "ExpectedLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo/org/seleniumhq/selenium/selenium-java/2.44.0/selenium-java-2.44.0.jar"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-java",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-java\\2.44.0\\selenium-java-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-chrome-driver",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-chrome-driver\\2.44.0\\selenium-chrome-driver-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-remote-driver",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-remote-driver\\2.44.0\\selenium-remote-driver-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "cglib",
+            "ArtifactId": "cglib-nodep",
+            "Version": "2.1_3",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\cglib\\cglib-nodep\\2.1_3\\cglib-nodep-2.1_3.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "com.google.code.gson",
+            "ArtifactId": "gson",
+            "Version": "2.3",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\com\\google\\code\\gson\\gson\\2.3\\gson-2.3.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-api",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-api\\2.44.0\\selenium-api-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "com.google.guava",
+            "ArtifactId": "guava",
+            "Version": "18.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\com\\google\\guava\\guava\\18.0\\guava-18.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-htmlunit-driver",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-htmlunit-driver\\2.44.0\\selenium-htmlunit-driver-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "net.sourceforge.htmlunit",
+            "ArtifactId": "htmlunit",
+            "Version": "2.15",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\sourceforge\\htmlunit\\htmlunit\\2.15\\htmlunit-2.15.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "xalan",
+            "ArtifactId": "xalan",
+            "Version": "2.7.1",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\xalan\\xalan\\2.7.1\\xalan-2.7.1.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "xalan",
+            "ArtifactId": "serializer",
+            "Version": "2.7.1",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\xalan\\serializer\\2.7.1\\serializer-2.7.1.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "commons-collections",
+            "ArtifactId": "commons-collections",
+            "Version": "3.2.1",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-collections\\commons-collections\\3.2.1\\commons-collections-3.2.1.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.apache.commons",
+            "ArtifactId": "commons-lang3",
+            "Version": "3.3.2",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\commons\\commons-lang3\\3.3.2\\commons-lang3-3.3.2.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.apache.httpcomponents",
+            "ArtifactId": "httpmime",
+            "Version": "4.3.3",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\httpcomponents\\httpmime\\4.3.3\\httpmime-4.3.3.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "commons-codec",
+            "ArtifactId": "commons-codec",
+            "Version": "1.9",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-codec\\commons-codec\\1.9\\commons-codec-1.9.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "net.sourceforge.htmlunit",
+            "ArtifactId": "htmlunit-core-js",
+            "Version": "2.15",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\sourceforge\\htmlunit\\htmlunit-core-js\\2.15\\htmlunit-core-js-2.15.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "xerces",
+            "ArtifactId": "xercesImpl",
+            "Version": "2.11.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\xerces\\xercesImpl\\2.11.0\\xercesImpl-2.11.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "xml-apis",
+            "ArtifactId": "xml-apis",
+            "Version": "1.4.01",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\xml-apis\\xml-apis\\1.4.01\\xml-apis-1.4.01.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "net.sourceforge.nekohtml",
+            "ArtifactId": "nekohtml",
+            "Version": "1.9.21",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\sourceforge\\nekohtml\\nekohtml\\1.9.21\\nekohtml-1.9.21.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "net.sourceforge.cssparser",
+            "ArtifactId": "cssparser",
+            "Version": "0.9.14",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\sourceforge\\cssparser\\cssparser\\0.9.14\\cssparser-0.9.14.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.w3c.css",
+            "ArtifactId": "sac",
+            "Version": "1.3",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\w3c\\css\\sac\\1.3\\sac-1.3.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "commons-logging",
+            "ArtifactId": "commons-logging",
+            "Version": "1.1.3",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-logging\\commons-logging\\1.1.3\\commons-logging-1.1.3.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.eclipse.jetty",
+            "ArtifactId": "jetty-websocket",
+            "Version": "8.1.15.v20140411",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\eclipse\\jetty\\jetty-websocket\\8.1.15.v20140411\\jetty-websocket-8.1.15.v20140411.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.eclipse.jetty",
+            "ArtifactId": "jetty-util",
+            "Version": "8.1.15.v20140411",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\eclipse\\jetty\\jetty-util\\8.1.15.v20140411\\jetty-util-8.1.15.v20140411.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.eclipse.jetty",
+            "ArtifactId": "jetty-io",
+            "Version": "8.1.15.v20140411",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\eclipse\\jetty\\jetty-io\\8.1.15.v20140411\\jetty-io-8.1.15.v20140411.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.eclipse.jetty",
+            "ArtifactId": "jetty-http",
+            "Version": "8.1.15.v20140411",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\eclipse\\jetty\\jetty-http\\8.1.15.v20140411\\jetty-http-8.1.15.v20140411.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.apache.httpcomponents",
+            "ArtifactId": "httpclient",
+            "Version": "4.3.4",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\httpcomponents\\httpclient\\4.3.4\\httpclient-4.3.4.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.apache.httpcomponents",
+            "ArtifactId": "httpcore",
+            "Version": "4.3.2",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\httpcomponents\\httpcore\\4.3.2\\httpcore-4.3.2.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-firefox-driver",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-firefox-driver\\2.44.0\\selenium-firefox-driver-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "commons-io",
+            "ArtifactId": "commons-io",
+            "Version": "2.4",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-io\\commons-io\\2.4\\commons-io-2.4.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.apache.commons",
+            "ArtifactId": "commons-exec",
+            "Version": "1.1",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\commons\\commons-exec\\1.1\\commons-exec-1.1.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-ie-driver",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-ie-driver\\2.44.0\\selenium-ie-driver-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "net.java.dev.jna",
+            "ArtifactId": "jna",
+            "Version": "3.4.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\java\\dev\\jna\\jna\\3.4.0\\jna-3.4.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "net.java.dev.jna",
+            "ArtifactId": "platform",
+            "Version": "3.4.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\java\\dev\\jna\\platform\\3.4.0\\platform-3.4.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-safari-driver",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-safari-driver\\2.44.0\\selenium-safari-driver-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-support",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-support\\2.44.0\\selenium-support-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.webbitserver",
+            "ArtifactId": "webbit",
+            "Version": "0.4.14",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\webbitserver\\webbit\\0.4.14\\webbit-0.4.14.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "io.netty",
+            "ArtifactId": "netty",
+            "Version": "3.5.2.Final",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\io\\netty\\netty\\3.5.2.Final\\netty-3.5.2.Final.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.704-02:00",
+        "EventType": "DependencyResolutionSuccessful",
+        "Data": {
+          "Dependency": "BuildlessMavenDependencyAdaptor{projectFile=null, dependency=Dependency {groupId=org.seleniumhq.selenium, artifactId=selenium-java, version=2.44.0, type=jar}}",
+          "ExpectedLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo/org/seleniumhq/selenium/selenium-java/2.44.0/selenium-java-2.44.0.jar"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:29.720-02:00",
+        "EventType": "DependencyResolutionStarted",
+        "Data": {
+          "Dependency": "BuildlessMavenDependencyAdaptor{projectFile=null, dependency=Dependency {groupId=org.seleniumhq.selenium, artifactId=selenium-firefox-driver, version=2.44.0, type=jar}}",
+          "ExpectedLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo/org/seleniumhq/selenium/selenium-firefox-driver/2.44.0/selenium-firefox-driver-2.44.0.jar"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-firefox-driver",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-firefox-driver\\2.44.0\\selenium-firefox-driver-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-remote-driver",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-remote-driver\\2.44.0\\selenium-remote-driver-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "cglib",
+            "ArtifactId": "cglib-nodep",
+            "Version": "2.1_3",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\cglib\\cglib-nodep\\2.1_3\\cglib-nodep-2.1_3.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "com.google.code.gson",
+            "ArtifactId": "gson",
+            "Version": "2.3",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\com\\google\\code\\gson\\gson\\2.3\\gson-2.3.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.seleniumhq.selenium",
+            "ArtifactId": "selenium-api",
+            "Version": "2.44.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\seleniumhq\\selenium\\selenium-api\\2.44.0\\selenium-api-2.44.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.apache.httpcomponents",
+            "ArtifactId": "httpclient",
+            "Version": "4.3.4",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\httpcomponents\\httpclient\\4.3.4\\httpclient-4.3.4.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.apache.httpcomponents",
+            "ArtifactId": "httpcore",
+            "Version": "4.3.2",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\httpcomponents\\httpcore\\4.3.2\\httpcore-4.3.2.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "commons-logging",
+            "ArtifactId": "commons-logging",
+            "Version": "1.1.3",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-logging\\commons-logging\\1.1.3\\commons-logging-1.1.3.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "commons-codec",
+            "ArtifactId": "commons-codec",
+            "Version": "1.6",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-codec\\commons-codec\\1.6\\commons-codec-1.6.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "com.google.guava",
+            "ArtifactId": "guava",
+            "Version": "18.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\com\\google\\guava\\guava\\18.0\\guava-18.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "net.java.dev.jna",
+            "ArtifactId": "jna",
+            "Version": "3.4.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\java\\dev\\jna\\jna\\3.4.0\\jna-3.4.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "net.java.dev.jna",
+            "ArtifactId": "platform",
+            "Version": "3.4.0",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\net\\java\\dev\\jna\\platform\\3.4.0\\platform-3.4.0.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "commons-io",
+            "ArtifactId": "commons-io",
+            "Version": "2.4",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\commons-io\\commons-io\\2.4\\commons-io-2.4.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "org.apache.commons",
+            "ArtifactId": "commons-exec",
+            "Version": "1.1",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\org\\apache\\commons\\commons-exec\\1.1\\commons-exec-1.1.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependencyResolutionSuccessful",
+        "Data": {
+          "Dependency": "BuildlessMavenDependencyAdaptor{projectFile=null, dependency=Dependency {groupId=org.seleniumhq.selenium, artifactId=selenium-firefox-driver, version=2.44.0, type=jar}}",
+          "ExpectedLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo/org/seleniumhq/selenium/selenium-firefox-driver/2.44.0/selenium-firefox-driver-2.44.0.jar"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:46:30.157-02:00",
+        "EventType": "DependenciesProcessingComplete"
+      }
+    ],
+    "Status": "OK"
+  }
+}

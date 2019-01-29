@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is part of Dependency-Check.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Copyright (c) 2012 - Jeremy Long
+--><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.owasp</groupId>
+    <artifactId>dependency-check-parent</artifactId>
+    <version>1.2.3</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>dependency-check-core</module>
+        <module>dependency-check-cli</module>
+        <module>dependency-check-ant</module>
+        <module>dependency-check-maven</module>
+        <module>dependency-check-jenkins</module>
+        <module>dependency-check-utils</module>
+    </modules>
+    <name>Dependency-Check</name>
+    <url>https://github.com/jeremylong/DependencyCheck.git</url>
+    <description>dependency-check is a utility that identifies project dependencies and checks if there are any known, publicly disclosed, vulnerabilities. This tool can be part of the solution to the OWASP Top 10 2013: A9 - Using Components with Known Vulnerabilities.</description>
+    <inceptionYear>2012</inceptionYear>
+
+    <organization>
+        <name>OWASP</name>
+        <url>http://www.owasp.org</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Jeremy Long</name>
+            <email>jeremy.long@owasp.org</email>
+            <organization>OWASP</organization>
+            <organizationUrl>https://www.owasp.org/index.php/OWASP_Dependency_Check</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <properties>
+                <picUrl>https://plus.google.com/s2/photos/profile/108968019311857145023</picUrl>
+                <twitter>@ctxt</twitter>
+            </properties>
+        </developer>
+        <developer>
+            <name>Steve Springett</name>
+            <email>Steve.Springett@owasp.org</email>
+            <organization>OWASP</organization>
+            <organizationUrl>https://www.owasp.org/index.php/OWASP_Dependency_Check</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Will Stranathan</name>
+            <email>Will.Stranathan@owasp.org</email>
+            <organization>OWASP</organization>
+            <organizationUrl>https://www.owasp.org/index.php/OWASP_Dependency_Check</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <properties>
+                <twitter>@willathome</twitter>
+            </properties>
+        </developer>
+    </developers>
+    <contributors>
+        <contributor>
+        </contributor>
+    </contributors>
+    <scm>
+        <connection>scm:git:git@github.com:jeremylong/DependencyCheck.git</connection>
+        <url>https://github.com/jeremylong/DependencyCheck</url>
+        <developerConnection>scm:git:git@github.com:jeremylong/DependencyCheck.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <issueManagement>
+        <system>github</system>
+        <url>https://github.com/jeremylong/DependencyCheck/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Cloudbees</system>
+        <url>https://dependency-check.ci.cloudbees.com/</url>
+    </ciManagement>
+    <mailingLists>
+        <mailingList>
+            <name>Dependency Check</name>
+            <subscribe>dependency-check+subscribe@googlegroups.com</subscribe>
+            <unsubscribe>dependency-check+unsubscribe@googlegroups.com</unsubscribe>
+            <post>dependency-check@googlegroups.com</post>
+            <archive>https://groups.google.com/forum/?fromgroups#!forum/dependency-check</archive>
+        </mailingList>
+    </mailingLists>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <github.global.server>github</github.global.server>
+    </properties>
+    <!-- begin copy from http://minds.coremedia.com/2012/09/11/problem-solved-deploy-multi-module-maven-project-site-as-github-pages/ -->
+    <distributionManagement>
+        <site>
+            <id>github-pages-site</id>
+            <name>Deployment through GitHub's site deployment plugin</name>
+            <url>${project.build.directory}/site/${project.version}</url>
+        </site>
+    </distributionManagement>
+    <!-- end copy -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.4.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9.1</version>
+                <configuration>
+                    <bottom>Copyright© 2012-13 Jeremy Long. All Rights Reserved.</bottom>
+                </configuration>
+            </plugin>
+            <!-- begin copy from http://minds.coremedia.com/2012/09/11/problem-solved-deploy-multi-module-maven-project-site-as-github-pages/ -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.3</version>
+                <dependencies>
+                    <dependency>
+                        <!--
+                        | allows markdown syntax for site generation. To use it place files below
+                        | src/site/markdown/[filename].md
+                        -->
+                        <groupId>org.apache.maven.doxia</groupId>
+                        <artifactId>doxia-module-markdown</artifactId>
+                        <version>1.5</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <skipDeploy>true</skipDeploy>
+                    <reportPlugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-project-info-reports-plugin</artifactId>
+                            <version>2.7</version>
+                            <reportSets>
+                                <reportSet>
+                                    <reports>
+                                        <!--
+                                        <report>cim</report>
+                                        <report>dependencies</report>
+                                        <report>dependency-convergence</report>
+                                        <report>dependency-info</report>
+                                        <report>dependency-management</report>
+                                        <report>distribution-management</report>
+                                        -->
+                                        <report>index</report>
+                                        <report>summary</report>
+                                        <report>mailing-list</report>
+                                        <report>issue-tracking</report>
+                                        <report>modules</report>
+                                        <report>project-team</report>
+                                        <report>scm</report>
+                                        <report>license</report>
+                                        <report>help</report>
+                                    </reports>
+                                </reportSet>
+                            </reportSets>
+                        </plugin>
+                    </reportPlugins>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.github.github</groupId>
+                <artifactId>site-maven-plugin</artifactId>
+                <version>0.9</version>
+                <configuration>
+                    <message>Creating site for ${project.artifactId}, ${project.version}</message>
+                    <!-- this does the trick to place every module in the correct subfolder -->
+                    <path>${project.distributionManagement.site.url}</path>
+                    <merge>true</merge>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>github-site</id>
+                        <goals>
+                            <goal>site</goal>
+                        </goals>
+                        <phase>site-deploy</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- end copy -->
+            <!--<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.4</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>-->
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
+</project>

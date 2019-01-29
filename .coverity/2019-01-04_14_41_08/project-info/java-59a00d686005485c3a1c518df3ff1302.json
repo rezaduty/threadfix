@@ -1,0 +1,210 @@
+{
+  "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\pom.xml": {
+    "ProjectDir": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade",
+    "Emit": [
+      {
+        "Language": "Java",
+        "DependencyInfo": {
+          "Dependencies": [
+            {
+              "Type": "BINARY",
+              "File": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\mysql\\mysql-connector-java\\5.1.10\\mysql-connector-java-5.1.10.jar",
+              "Status": "OK",
+              "Scopes": [
+                "COMPILE",
+                "TEST"
+              ]
+            }
+          ]
+        },
+        "Defines": [],
+        "SourceInfo": {
+          "Sources": {
+            "MAIN": [
+              "src\\com\\denimgroup\\threadfix\\update\\mysql\\MySQLDriver.java"
+            ],
+            "TEST": []
+          }
+        }
+      },
+      {
+        "Language": "JSP",
+        "DependencyInfo": {
+          "Dependencies": []
+        },
+        "Defines": [],
+        "SourceInfo": {
+          "Sources": {
+            "MAIN": [],
+            "TEST": []
+          }
+        }
+      }
+    ],
+    "ProjectFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\pom.xml",
+    "Telemetry": [
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.662-02:00",
+        "EventType": "PomFileParsed",
+        "Data": {
+          "MainPomFileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\pom.xml",
+          "ParsedPomFileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\pom.xml",
+          "ProblemsFound": []
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.678-02:00",
+        "EventType": "SourcesScanStarted",
+        "Data": {
+          "SourcesSet": "Main",
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\target\\classes\\generated-sources",
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src"
+          ]
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.678-02:00",
+        "EventType": "SourcesRootDirectoryDoesNotExist",
+        "Data": {
+          "SourcesSet": "Main",
+          "Target": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\target\\classes\\generated-sources"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.678-02:00",
+        "EventType": "SuccessfulSourceRootScan",
+        "Data": {
+          "SourcesSet": "Main",
+          "Target": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.678-02:00",
+        "EventType": "SourcesScanComplete",
+        "Data": {
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\target\\classes\\generated-sources",
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src"
+          ],
+          "SourcesSet": "Main"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.678-02:00",
+        "EventType": "SourcesScanStarted",
+        "Data": {
+          "SourcesSet": "Test",
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src\\test\\java"
+          ]
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.678-02:00",
+        "EventType": "SourcesRootDirectoryDoesNotExist",
+        "Data": {
+          "SourcesSet": "Test",
+          "Target": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src\\test\\java"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.678-02:00",
+        "EventType": "SourcesScanComplete",
+        "Data": {
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src\\test\\java"
+          ],
+          "SourcesSet": "Test"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.693-02:00",
+        "EventType": "SourcesScanStarted",
+        "Data": {
+          "SourcesSet": "Webapp",
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src\\main\\webapp"
+          ]
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.693-02:00",
+        "EventType": "SourcesRootDirectoryDoesNotExist",
+        "Data": {
+          "SourcesSet": "Webapp",
+          "Target": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src\\main\\webapp"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.693-02:00",
+        "EventType": "SourcesScanComplete",
+        "Data": {
+          "Targets": [
+            "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\src\\main\\webapp"
+          ],
+          "SourcesSet": "Webapp"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.693-02:00",
+        "EventType": "DependenciesProcessingStarted"
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:04.693-02:00",
+        "EventType": "DependencyResolutionStarted",
+        "Data": {
+          "Dependency": "BuildlessMavenDependencyAdaptor{projectFile=null, dependency=Dependency {groupId=mysql, artifactId=mysql-connector-java, version=5.1.10, type=jar}}",
+          "ExpectedLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo/mysql/mysql-connector-java/5.1.10/mysql-connector-java-5.1.10.jar"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:07.364-02:00",
+        "EventType": "DependencyRegistered",
+        "Data": {
+          "ArtifactInfo": {
+            "GroupId": "mysql",
+            "ArtifactId": "mysql-connector-java",
+            "Version": "5.1.10",
+            "Extension": "jar",
+            "FileLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo\\mysql\\mysql-connector-java\\5.1.10\\mysql-connector-java-5.1.10.jar",
+            "Status": "OK",
+            "Scopes": [
+              "COMPILE",
+              "TEST"
+            ]
+          }
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:07.364-02:00",
+        "EventType": "DependencyResolutionSuccessful",
+        "Data": {
+          "Dependency": "BuildlessMavenDependencyAdaptor{projectFile=null, dependency=Dependency {groupId=mysql, artifactId=mysql-connector-java, version=5.1.10, type=jar}}",
+          "ExpectedLocation": "D:\\FCBr\\Applications\\Java\\threadfix\\.coverity\\maven\\local-repo/mysql/mysql-connector-java/5.1.10/mysql-connector-java-5.1.10.jar"
+        }
+      },
+      {
+        "Type": "EVENT",
+        "DateTime": "2019-01-04T14:43:07.364-02:00",
+        "EventType": "DependenciesProcessingComplete"
+      }
+    ],
+    "Status": "OK"
+  }
+}

@@ -1,0 +1,7 @@
+D:/Program Files/Coverity/Coverity Analysis/bin/cov-inspect-project.exe
+--project-dir
+.
+--output-dir
+D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info
+--logging-endpoint
+D:/FCBr/Applications/Java/threadfix/.coverity/cov-internal-fluentd-port

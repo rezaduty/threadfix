@@ -1,0 +1,87 @@
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix scanned
+[INFO] An error occurred while parsing registered pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\remote-provider\pom.xml
+com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParsingException: There was a problem parsing the specified pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\remote-provider\pom.xml
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:77)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFile(PomFileParser.java:89)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.extractRelatedPomFiles(PomFileAggregator.java:140)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.registerPom(PomFileAggregator.java:84)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFilesScanner.process(PomFilesScanner.java:74)
+	at com.synopsys.sig.prevent.buildless.main.commands.MavenScanCommandStrategy.process(MavenScanCommandStrategy.java:46)
+	at com.synopsys.sig.prevent.buildless.main.commands.InspectorAction.execute(InspectorAction.java:41)
+	at com.synopsys.sig.prevent.buildless.main.Main.execute(Main.java:65)
+	at com.synopsys.sig.prevent.buildless.main.Main.main(Main.java:53)
+Caused by: org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.denimgroup.threadfix:remote-provider-plugin:[unknown-version]: Could not find artifact com.denimgroup.threadfix:master-pom:pom:2.3-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 5, column 13
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:383)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:69)
+	... 8 more
+[INFO] An error occurred while parsing registered pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\importer\pom.xml
+com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParsingException: There was a problem parsing the specified pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\importer\pom.xml
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:77)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFile(PomFileParser.java:89)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.extractRelatedPomFiles(PomFileAggregator.java:140)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.registerPom(PomFileAggregator.java:84)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFilesScanner.process(PomFilesScanner.java:74)
+	at com.synopsys.sig.prevent.buildless.main.commands.MavenScanCommandStrategy.process(MavenScanCommandStrategy.java:46)
+	at com.synopsys.sig.prevent.buildless.main.commands.InspectorAction.execute(InspectorAction.java:41)
+	at com.synopsys.sig.prevent.buildless.main.Main.execute(Main.java:65)
+	at com.synopsys.sig.prevent.buildless.main.Main.main(Main.java:53)
+Caused by: org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.denimgroup.threadfix:importer-plugin:[unknown-version]: Could not find artifact com.denimgroup.threadfix:master-pom:pom:2.3-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 5, column 13
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:383)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:69)
+	... 8 more
+[INFO] An error occurred while parsing registered pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\default-tag\pom.xml
+com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParsingException: There was a problem parsing the specified pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\default-tag\pom.xml
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:77)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFile(PomFileParser.java:89)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.extractRelatedPomFiles(PomFileAggregator.java:140)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.registerPom(PomFileAggregator.java:84)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFilesScanner.process(PomFilesScanner.java:74)
+	at com.synopsys.sig.prevent.buildless.main.commands.MavenScanCommandStrategy.process(MavenScanCommandStrategy.java:46)
+	at com.synopsys.sig.prevent.buildless.main.commands.InspectorAction.execute(InspectorAction.java:41)
+	at com.synopsys.sig.prevent.buildless.main.Main.execute(Main.java:65)
+	at com.synopsys.sig.prevent.buildless.main.Main.main(Main.java:53)
+Caused by: org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.denimgroup.threadfix:default-tag-plugin:[unknown-version]: Could not find artifact com.denimgroup.threadfix:master-pom:pom:2.3-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 5, column 13
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:383)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:69)
+	... 8 more
+[INFO] An error occurred while parsing registered pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\waf\pom.xml
+com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParsingException: There was a problem parsing the specified pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\waf\pom.xml
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:77)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFile(PomFileParser.java:89)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.extractRelatedPomFiles(PomFileAggregator.java:140)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.registerPom(PomFileAggregator.java:84)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFilesScanner.process(PomFilesScanner.java:74)
+	at com.synopsys.sig.prevent.buildless.main.commands.MavenScanCommandStrategy.process(MavenScanCommandStrategy.java:46)
+	at com.synopsys.sig.prevent.buildless.main.commands.InspectorAction.execute(InspectorAction.java:41)
+	at com.synopsys.sig.prevent.buildless.main.Main.execute(Main.java:65)
+	at com.synopsys.sig.prevent.buildless.main.Main.main(Main.java:53)
+Caused by: org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.denimgroup.threadfix:waf-plugin:[unknown-version]: Could not find artifact com.denimgroup.threadfix:master-pom:pom:2.3-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 5, column 13
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:383)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:69)
+	... 8 more
+[INFO] An error occurred while parsing registered pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\defect-tracker\pom.xml
+com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParsingException: There was a problem parsing the specified pom file D:\FCBr\Applications\Java\threadfix\threadfix-plugin-examples\defect-tracker\pom.xml
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:77)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFile(PomFileParser.java:89)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.extractRelatedPomFiles(PomFileAggregator.java:140)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFileAggregator.registerPom(PomFileAggregator.java:84)
+	at com.synopsys.sig.prevent.buildless.tools.maven.scan.PomFilesScanner.process(PomFilesScanner.java:74)
+	at com.synopsys.sig.prevent.buildless.main.commands.MavenScanCommandStrategy.process(MavenScanCommandStrategy.java:46)
+	at com.synopsys.sig.prevent.buildless.main.commands.InspectorAction.execute(InspectorAction.java:41)
+	at com.synopsys.sig.prevent.buildless.main.Main.execute(Main.java:65)
+	at com.synopsys.sig.prevent.buildless.main.Main.main(Main.java:53)
+Caused by: org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.denimgroup.threadfix:defect-tracker-plugin:[unknown-version]: Could not find artifact com.denimgroup.threadfix:master-pom:pom:2.3-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 5, column 13
+
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:383)
+	at com.synopsys.sig.prevent.buildless.tools.maven.tooling.parsing.PomFileParser.parsePomFileProjects(PomFileParser.java:69)
+	... 8 more
+[INFO] Wrote JSON file with the results from the inspection: D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/pom-scan.json

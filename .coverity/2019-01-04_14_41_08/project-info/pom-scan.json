@@ -1,0 +1,353 @@
+{
+  "RootPoms": [
+    "D:\\FCBr\\Applications\\Java\\threadfix\\report-plugin\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\hsql-upgrade\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\defect-tracker\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ide-plugin\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\waf\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\remote-provider\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\importer\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\pom.xml",
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\default-tag\\pom.xml"
+  ],
+  "DependentPoms": {
+    "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ide-plugin\\pom.xml": [
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ide-plugin\\eclipse\\pom.xml"
+    ],
+    "D:\\FCBr\\Applications\\Java\\threadfix\\pom.xml": [
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli-endpoints\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-data-migration\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-sonar-plugin\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-offline\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-entities\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\ssvl-converter\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli-importers\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-scanner-plugin\\burp\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-scanner-plugin\\zaproxy\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-service-interfaces\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-data-access\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ham\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-importers\\pom.xml",
+      "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-main\\pom.xml"
+    ]
+  },
+  "TargetDirectory": "D:\\FCBr\\Applications\\Java\\threadfix",
+  "Telemetry": [
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.613-02:00",
+      "EventType": "PomFilesScanningStarted"
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.879-02:00",
+      "EventType": "SuccessfulPomFilesScan"
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.879-02:00",
+      "EventType": "PomFilesScanningSuccessful"
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.879-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-offline\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.926-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-main\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.941-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli-endpoints\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.941-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-importers\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.957-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\remote-provider\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.973-02:00",
+      "EventType": "RootPomFileParsingFailed",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\remote-provider\\pom.xml",
+        "ExceptionMessage": "There was a problem parsing the specified pom file D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\remote-provider\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.973-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-scanner-plugin\\burp\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.988-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\ssvl-converter\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:24.988-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ide-plugin\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.019-02:00",
+      "EventType": "AggregatedPomFilesRegistered",
+      "Data": {
+        "MainPomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ide-plugin\\pom.xml",
+        "AggregatedPomFiles": [
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ide-plugin\\eclipse\\pom.xml"
+        ]
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.019-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-entities\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.019-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ide-plugin\\eclipse\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.035-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-data-access\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.035-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-scanner-plugin\\zaproxy\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.035-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-sonar-plugin\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.051-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\hsql-upgrade\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.051-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.066-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli-importers\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.066-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\importer\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.066-02:00",
+      "EventType": "RootPomFileParsingFailed",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\importer\\pom.xml",
+        "ExceptionMessage": "There was a problem parsing the specified pom file D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\importer\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.066-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\report-plugin\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.082-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\default-tag\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.082-02:00",
+      "EventType": "RootPomFileParsingFailed",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\default-tag\\pom.xml",
+        "ExceptionMessage": "There was a problem parsing the specified pom file D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\default-tag\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.082-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.144-02:00",
+      "EventType": "AggregatedPomFilesRegistered",
+      "Data": {
+        "MainPomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\pom.xml",
+        "AggregatedPomFiles": [
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli-endpoints\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-data-migration\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-sonar-plugin\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-offline\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-entities\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\ssvl-converter\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli-importers\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-scanner-plugin\\burp\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-cli\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-scanner-plugin\\zaproxy\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-service-interfaces\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-data-access\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ham\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-importers\\pom.xml",
+          "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-main\\pom.xml"
+        ]
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.144-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-service-interfaces\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.144-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-ham\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.160-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-extras\\generate_selenium\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.160-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\waf\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.176-02:00",
+      "EventType": "RootPomFileParsingFailed",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\waf\\pom.xml",
+        "ExceptionMessage": "There was a problem parsing the specified pom file D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\waf\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.176-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-upgrade\\mysql-upgrade\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.191-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\defect-tracker\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.207-02:00",
+      "EventType": "RootPomFileParsingFailed",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\defect-tracker\\pom.xml",
+        "ExceptionMessage": "There was a problem parsing the specified pom file D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-plugin-examples\\defect-tracker\\pom.xml"
+      }
+    },
+    {
+      "Type": "EVENT",
+      "DateTime": "2019-01-04T14:41:25.207-02:00",
+      "EventType": "MainPomFileRegistered",
+      "Data": {
+        "PomFile": "D:\\FCBr\\Applications\\Java\\threadfix\\threadfix-data-migration\\pom.xml"
+      }
+    }
+  ],
+  "Status": "FAILED"
+}

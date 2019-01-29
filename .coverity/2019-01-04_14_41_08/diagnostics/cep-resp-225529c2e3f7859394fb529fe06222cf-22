@@ -1,0 +1,10 @@
+--dir
+intCapDir
+cov-filesystem-capture-capture-config-files-0
+D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/mysql-upgrade/src/resources/1_2rc3.sql
+D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/mysql-upgrade/src/resources/appscan-enterprise.sql
+D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/mysql-upgrade/src/resources/brakeman.sql
+D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/mysql-upgrade/src/resources/deleted.sql
+D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/mysql-upgrade/src/resources/nto6.sql
+D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/mysql-upgrade/src/resources/rc3-final.sql
+D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/mysql-upgrade/src/resources/update.sql

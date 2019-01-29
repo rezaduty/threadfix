@@ -1,0 +1,6 @@
+--dir
+intCapDir
+cov-filesystem-capture-javafs-0
+--fs-library-path
+D:/FCBr/Applications/Java/threadfix/.coverity/maven/local-repo/mysql/mysql-connector-java/5.1.10/mysql-connector-java-5.1.10.jar
+D:/FCBr/Applications/Java/threadfix/threadfix-upgrade/mysql-upgrade/src/com/denimgroup/threadfix/update/mysql/MySQLDriver.java

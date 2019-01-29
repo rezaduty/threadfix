@@ -1,0 +1,7 @@
+--no-banner
+--project-view
+D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/java-891d5f252c598318d500d7612e3b525a.json
+--dir
+intCapDir
+--logging-endpoint
+D:/FCBr/Applications/Java/threadfix/.coverity/cov-internal-fluentd-port

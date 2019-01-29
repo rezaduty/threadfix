@@ -1,0 +1,17 @@
+Using cached template compiler configuration instance D:/FCBr/Applications/Java/threadfix/intCapDir/emit/FCBR-01/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+[STATUS] Compiling 7 Non compiled source files.
+[STATUS] Compiling threadfix-upgrade\mysql-upgrade\src\resources\1_2rc3.sql, threadfix-upgrade\mysql-upgrade\src\resources\appscan-enterprise.sql, threadfix-upgrade\mysql-upgrade\src\resources\brakeman.sql, threadfix-upgrade\mysql-upgrade\src\resources\deleted.sql, threadfix-upgrade\mysql-upgrade\src\resources\nto6.sql, threadfix-upgrade\mysql-upgrade\src\resources\rc3-final.sql, threadfix-upgrade\mysql-upgrade\src\resources\update.sql
+"D:/Program Files/Coverity/Coverity Analysis/bin/cov-internal-emit-misc.exe" --dir=D:\FCBr\Applications\Java\threadfix\intCapDir --language=capture-config-files threadfix-upgrade/mysql-upgrade/src/resources/1_2rc3.sql threadfix-upgrade/mysql-upgrade/src/resources/appscan-enterprise.sql threadfix-upgrade/mysql-upgrade/src/resources/brakeman.sql threadfix-upgrade/mysql-upgrade/src/resources/deleted.sql threadfix-upgrade/mysql-upgrade/src/resources/nto6.sql threadfix-upgrade/mysql-upgrade/src/resources/rc3-final.sql threadfix-upgrade/mysql-upgrade/src/resources/update.sql 
+Command line with response file: D:/Program Files/Coverity/Coverity Analysis/bin/cov-internal-emit-misc.exe @utf8@D:\FCBr\Applications\Java\threadfix\intCapDir\tmp\cov-internal-emit-misc-9445505d31e512c52dee2058e3e7b30c-0.cmd_args.txt
+Coverity Internal Misc Emit version 2018.12 on Windows 10 (Unknown Edition number 100), 64-bit (build 17134)
+Internal version numbers: c56d2f65de p-pacific-push-35824
+
+Detected ISO-8859-1 encoding for threadfix-upgrade/mysql-upgrade/src/resources/1_2rc3.sql
+Detected ISO-8859-1 encoding for threadfix-upgrade/mysql-upgrade/src/resources/appscan-enterprise.sql
+Detected ISO-8859-1 encoding for threadfix-upgrade/mysql-upgrade/src/resources/brakeman.sql
+Detected ISO-8859-1 encoding for threadfix-upgrade/mysql-upgrade/src/resources/deleted.sql
+Detected ISO-8859-1 encoding for threadfix-upgrade/mysql-upgrade/src/resources/nto6.sql
+Detected ISO-8859-1 encoding for threadfix-upgrade/mysql-upgrade/src/resources/rc3-final.sql
+Detected ISO-8859-1 encoding for threadfix-upgrade/mysql-upgrade/src/resources/update.sql
+cov-internal-emit-misc.exe took 0s
+

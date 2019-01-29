@@ -1,0 +1,5 @@
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\hsql-upgrade\target\classes\generated-sources doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\hsql-upgrade\src scanned
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\hsql-upgrade\src\test\java doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-upgrade\hsql-upgrade\src\main\webapp doesn't exist
+[INFO] Wrote JSON file with the results from the inspection: D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/java-3f640e08487a2b2e149c6395717625dc.json

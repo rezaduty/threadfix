@@ -1,0 +1,9 @@
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\src\test\java doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\target\classes\generated-sources doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\src\main\java doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\src\main\webapp doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\eclipse\src\test\java doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\eclipse\target\classes\generated-sources doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\eclipse\src\main\java doesn't exist
+[INFO] Sources directory D:\FCBr\Applications\Java\threadfix\threadfix-ide-plugin\eclipse\src\main\webapp doesn't exist
+[INFO] Wrote JSON file with the results from the inspection: D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/java-346d8971f6d23dd538ae47961cb5f344.json

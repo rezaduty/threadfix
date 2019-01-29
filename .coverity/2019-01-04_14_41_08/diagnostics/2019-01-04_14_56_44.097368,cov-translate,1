@@ -1,0 +1,14 @@
+Using cached template compiler configuration instance D:/FCBr/Applications/Java/threadfix/intCapDir/emit/FCBR-01/config/86c0393db2dfc13f34bf36599b00f373/coverity_config.xml
+[STATUS] Compiling 4 Non compiled source files.
+[STATUS] Compiling threadfix-sonar-plugin\src\main\resources\rules.xml, threadfix-sonar-plugin\src\main\resources\test.html.erb, threadfix-sonar-plugin\src\main\resources\threadfix_profile.xml, threadfix-sonar-plugin\src\main\resources\META-INF\MANIFEST.MF
+"D:/Program Files/Coverity/Coverity Analysis/bin/cov-internal-emit-misc.exe" --dir=D:\FCBr\Applications\Java\threadfix\intCapDir --language=capture-config-files threadfix-sonar-plugin/src/main/resources/rules.xml threadfix-sonar-plugin/src/main/resources/test.html.erb threadfix-sonar-plugin/src/main/resources/threadfix_profile.xml threadfix-sonar-plugin/src/main/resources/META-INF/MANIFEST.MF 
+Command line with response file: D:/Program Files/Coverity/Coverity Analysis/bin/cov-internal-emit-misc.exe @utf8@D:\FCBr\Applications\Java\threadfix\intCapDir\tmp\cov-internal-emit-misc-fa8c5f818fcaa1c2cb041151dff0d4f4-0.cmd_args.txt
+Coverity Internal Misc Emit version 2018.12 on Windows 10 (Unknown Edition number 100), 64-bit (build 17134)
+Internal version numbers: c56d2f65de p-pacific-push-35824
+
+Detected ISO-8859-1 encoding for threadfix-sonar-plugin/src/main/resources/rules.xml
+Detected ISO-8859-1 encoding for threadfix-sonar-plugin/src/main/resources/test.html.erb
+Detected ISO-8859-1 encoding for threadfix-sonar-plugin/src/main/resources/threadfix_profile.xml
+Detected ISO-8859-1 encoding for threadfix-sonar-plugin/src/main/resources/META-INF/MANIFEST.MF
+cov-internal-emit-misc.exe took 0s
+

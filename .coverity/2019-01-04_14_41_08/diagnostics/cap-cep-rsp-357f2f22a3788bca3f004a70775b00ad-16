@@ -1,0 +1,7 @@
+--no-banner
+--project-view
+D:/FCBr/Applications/Java/threadfix/.coverity/2019-01-04_14_41_08/project-info/java-web-app-config-1.json
+--dir
+intCapDir
+--logging-endpoint
+D:/FCBr/Applications/Java/threadfix/.coverity/cov-internal-fluentd-port

@@ -1,0 +1,127 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+
+	<groupId>com.fifesoft</groupId>
+	<artifactId>rtext-root-pom</artifactId>
+	<version>3</version>
+	<packaging>pom</packaging>
+	<name>RText Root Pom</name>
+	<description>
+		The top-most pom for building the RText editor application and associated editor components and 
+		libraries.
+  	</description>
+	<inceptionYear>2003</inceptionYear>
+	<url>http://www.fifesoft.com/rsyntaxtextarea/</url>
+	<licenses>
+		<license>
+			<name>GNU Lesser General Public License</name>
+			<url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<url>http://svn.fifesoft.com/viewvc-1.0.5/bin/cgi/viewvc.cgi/RSyntaxTextArea/?root=RSyntaxTextArea</url>
+		<connection>http://svn.fifesoft.com/svn/RSyntaxTextArea/RSyntaxTextArea/</connection>
+	</scm>
+	<developers>
+		<developer>
+			<name>Robert Futrell</name>
+			<url>http://www.fifesoft.com</url>
+		</developer>
+	</developers>
+	<properties>
+		<!-- Maven plugin versions -->
+		<compiler-plugin-version>2.3.2</compiler-plugin-version>
+		<gpg-plugin-version>1.1</gpg-plugin-version>
+		<jar-plugin-version>2.3.1</jar-plugin-version>
+
+
+		<!-- Third-party dependency versions -->
+		<junit-version>3.8.2</junit-version>
+	</properties>
+	<modules>
+		<module>rtext-modules</module>
+		<module>rsyntaxtextarea-modules</module>
+	</modules>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${compiler-plugin-version}</version>
+					<executions>
+						<execution>
+							<id>default-compile</id>
+							<configuration>
+								<fork>true</fork>
+								<executable>${javac14-compiler-executable}</executable>
+								<compilerVersion>1.4</compilerVersion>
+								<source>1.4</source>
+								<target>1.4</target>
+							</configuration>
+							<goals>
+								<goal>compile</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>${jar-plugin-version}</version>
+					<configuration>
+						<archive>
+							<manifest>
+								<addClasspath>true</addClasspath>
+							</manifest>
+							<manifestEntries>
+								<Specification-Version>1.4</Specification-Version>
+								<Implementation-Version>1.4</Implementation-Version>
+								<Specification-Title>${project.name}</Specification-Title>
+							</manifestEntries>
+						</archive>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<profiles>
+		<!-- Since signing jars is probably only useful for releasing, this is 
+			not done unless the "sign-jar" profile is activated -->
+		<profile>
+			<id>sign-jar</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>${gpg-plugin-version}</version>
+						<executions>
+							<execution>
+								<id>sign-artifacts</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+								<configuration>
+									<homedir>${gpg.homedir}</homedir>
+									<keyname>${gpg.keyname}</keyname>
+									<passphrase>${gpg.passphrase}</passphrase>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>
+

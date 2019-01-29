@@ -52,23 +52,23 @@ public class SanitizedLogger {
 	 * @param message
 	 */
 	public void debug(String message) {
-		log.log(MY_CANONICAL_CLASS_NAME, Level.DEBUG, sanitize(message), null);
+		//log.log(MY_CANONICAL_CLASS_NAME, Level.DEBUG, sanitize(message), null);
 	}
 	
 	public void debug(String message, Throwable ex) {
-		log.log(MY_CANONICAL_CLASS_NAME, Level.DEBUG, sanitize(message), ex);
+		//log.log(MY_CANONICAL_CLASS_NAME, Level.DEBUG, sanitize(message), ex);
 	}
 	
 	public void info(String message) {
-		log.log(MY_CANONICAL_CLASS_NAME, Level.INFO, sanitize(message), null);
+	//	log.log(MY_CANONICAL_CLASS_NAME, Level.INFO, sanitize(message), null);
 	}
 	
 	public void info(String message, Throwable ex) {
-		log.log(MY_CANONICAL_CLASS_NAME, Level.INFO, sanitize(message), ex);
+		//log.log(MY_CANONICAL_CLASS_NAME, Level.INFO, sanitize(message), ex);
 	}
 	
 	public void warn(String message) {
-		log.log(MY_CANONICAL_CLASS_NAME, Level.WARN, sanitize(message), null);
+		//log.log(MY_CANONICAL_CLASS_NAME, Level.WARN, sanitize(message), null);
 	}
 	
 	public void warn(String message, Throwable ex) {
